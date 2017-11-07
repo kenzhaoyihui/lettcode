@@ -13,3 +13,10 @@ def insert_sort(lists):
                 lists[j] = key
             j -= 1
     return lists
+
+if __name__ == "__main__":
+    list1 = [9,8,7,6,5,4,3,2,1]
+    list2 = [1,3,2,6,4,7,9,2,4]
+
+    print insert_sort(list1)
+    print insert_sort(list2)
